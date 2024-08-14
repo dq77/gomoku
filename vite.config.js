@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   build: {
-    outDir: 'doc', // 默认值是'dist'
+    outDir: 'docs', // 默认值是'dist'
   },
   base: '/gomoku',
 })
