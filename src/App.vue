@@ -10,8 +10,8 @@ const loading = ref(false)
 // 下棋
 const xia = (e) => {
   if (loading.value || isEnd.value) return
-  let x =  Math.round((e.offsetX - 24) / 29)
-  let y =  Math.round((e.offsetY - 24) / 29)
+  let x =  Math.round((e.offsetX - 24) / 29.3)
+  let y =  Math.round((e.offsetY - 24) / 29.3)
   if (x <= 0) { x = 0 }
   if (x >= 14) { x = 14 }
   if (y <= 0) { y = 0 }
