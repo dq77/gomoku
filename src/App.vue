@@ -31,7 +31,7 @@ const getNext = async () => {
     return `${line[item.x + 1]}${item.y + 1}`
   }).join('_')
   loading.value = true
-  const res = await instance.get('https://www.bytedance.ai/next_step', {
+  const res = await instance.get('https://gomoku.hula.ai/next_step', {
     params: { stepsString }
   })
   loading.value = false
