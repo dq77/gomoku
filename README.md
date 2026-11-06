@@ -2,4 +2,4 @@
 
 不服的点击下面链接试试，你要是能赢，我当场把电脑屏幕吃掉！
 
-点击链接体验：[https://767766.xyz/gomoku](https://dq77.github.io/gomoku/)
+点击链接体验：https://gomoku.767766.xyz
